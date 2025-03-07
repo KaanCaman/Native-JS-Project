@@ -1,38 +1,47 @@
-# Bootcamp Ödevi: Algoritma Çözümleri 🚀
+# 🛠 Algorithm Challenges (Bot Protection, Chop Array, Palindrome)
 
-Bu ödevde sizlere bir GitHub reposu üzerinden gönderdiğimiz 3 adet JavaScript dosyası ile algoritma soruları çözme görevi veriyoruz. 
-Bu görev, hem GitHub kullanımı konusunda deneyim kazanmanızı hem de JavaScript ile algoritma çözme becerilerinizi geliştirmenizi amaçlıyor.
+This repository contains three different algorithms that I developed as part of the Patika+ Mobile Developer Bootcamp.
 
----
+## 📌 Projects
 
-## A. Gerekli Adımlar ✅
+### 🔹 Bot Protection
 
-### 1. Reponun Fork Edilmesi 🌀
-1. Sayfanın sağ üst köşesindeki **Fork** butonuna tıklayın.
-2. Fork işlemi tamamlandıktan sonra repo, sizin GitHub hesabınıza kopyalanmış olacak.
-         - Bu repo artık sizin hesabınızda bağımsız bir kopya olarak çalışabilir.
+An algorithm that detects bot activity in a game. If **a sequence of 3 sequential commands repeats at least twice**, it returns the repeated command.  
+**Usage:**
 
-### 2. Reponun Gizli (Private) Hale Getirilmesi 🥷
-1. Kendi hesabınızdaki fork’ladığınız repo sayfasına gidin.
-2. Sağ üstte bulunan **Settings** sekmesine tıklayın.
-3. Sol taraftaki menüden **General** kısmına gidin.
-4. Sayfanın en altına doğru kaydırarak **Danger Zone** kısmında bulunan **Change repository visibility** seçeneğine tıklayın.
-5. Açılan pencerede, repoyu **Private** (gizli) olarak işaretleyin.
+```sh
+node botProtection.js
+```
 
-> **Not:** Gizli hale getirmeyi unutmamanız önemlidir!
+### 🔹 Chop Array
 
-## C. Ödevin Teslimi ⏳
-1. Çözümleriniz üzerinde çalışmayı tamamladıktan sonra, değişikliklerinizi kendi fork’ladığınız repo üzerinde commit edin.
-2. Commitlerinizi açıklayıcı bir şekilde yazmaya özen gösterin (örneğin: `Added solution for chop-array.js`).
-3. Çalışmalarınızı tamamladıktan sonra, ödevinizi kontrol etmemiz için GitHub hesabınızda bulunan bu gizli repoya bizi **collaborator** olarak ekleyin.
+A function that splits a given array into subgroups with a specified number of elements. Any remaining elements are placed in a separate group.  
+**Usage:**
 
-> **Not:** patikaplusmentor1 ve patikaplusmentor2 hesaplarını eklemeyi unutmayın!
+```sh
+node chopArray.js
+```
 
----
+### 🔹 Palindrome
 
-## D. Önemli Notlar ❗
-- Kodunuzun anlaşılır ve yorumlarla desteklenmiş olmasına dikkat edin.
-- Her bir algoritma sorusunu çözmeden önce soruyu anlamak önemli, gerekirse internet araştırması yapmayı unutmayın.
-- Kod yazarken mantık hatalarından kaçınmak için adım adım ilerleyin ve test yapmayı unutmayın.
+A function that checks whether a given word is a **palindrome**.  
+**Usage:**
 
-Başarılar dileriz! 😊
+```sh
+node palindrome.js
+```
+
+## 📂 Installation & Running
+
+Follow these steps to run the project:
+
+```sh
+# Clone the repository
+git clone https://github.com/KaanCaman/Native-JS-Project.git
+
+# Enter the project folder
+cd project-folder
+
+# Run the desired file
+node filename.js
+```
